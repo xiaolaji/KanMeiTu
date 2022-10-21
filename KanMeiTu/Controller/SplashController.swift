@@ -1,5 +1,5 @@
 //
-//  SplashControllerViewController.swift
+//  SplashController.swift
 //  KanMeiTu
 //
 //  Created by yi on 2022/10/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SplashControllerViewController: UIViewController {
+class SplashController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

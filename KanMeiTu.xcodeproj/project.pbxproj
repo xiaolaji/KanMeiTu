@@ -16,7 +16,7 @@
 		192028CA29023B3C005FB6F4 /* KanMeiTuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192028C929023B3C005FB6F4 /* KanMeiTuTests.swift */; };
 		192028D429023B3C005FB6F4 /* KanMeiTuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192028D329023B3C005FB6F4 /* KanMeiTuUITests.swift */; };
 		192028D629023B3C005FB6F4 /* KanMeiTuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192028D529023B3C005FB6F4 /* KanMeiTuUITestsLaunchTests.swift */; };
-		192028E429025E04005FB6F4 /* SplashControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192028E329025E04005FB6F4 /* SplashControllerViewController.swift */; };
+		19F24B9B29029CE000060FFB /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F24B9A29029CE000060FFB /* SplashController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		192028CF29023B3C005FB6F4 /* KanMeiTuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanMeiTuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		192028D329023B3C005FB6F4 /* KanMeiTuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanMeiTuUITests.swift; sourceTree = "<group>"; };
 		192028D529023B3C005FB6F4 /* KanMeiTuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanMeiTuUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		192028E329025E04005FB6F4 /* SplashControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashControllerViewController.swift; sourceTree = "<group>"; };
+		19F24B9A29029CE000060FFB /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,7 @@
 		192028E229025DC8005FB6F4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				192028E329025E04005FB6F4 /* SplashControllerViewController.swift */,
+				19F24B9A29029CE000060FFB /* SplashController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -269,8 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F24B9B29029CE000060FFB /* SplashController.swift in Sources */,
 				192028B729023B3B005FB6F4 /* ViewController.swift in Sources */,
-				192028E429025E04005FB6F4 /* SplashControllerViewController.swift in Sources */,
 				192028B329023B3B005FB6F4 /* AppDelegate.swift in Sources */,
 				192028B529023B3B005FB6F4 /* SceneDelegate.swift in Sources */,
 			);
