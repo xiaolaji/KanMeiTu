@@ -51,6 +51,74 @@
             </objects>
             <point key="canvasLocation" x="-1541" y="-680"/>
         </scene>
+        <!--Login Controller-->
+        <scene sceneID="Ejb-eV-P4o">
+            <objects>
+                <viewController storyboardIdentifier="Login" id="ven-h5-uuz" customClass="LoginController" customModule="KanMeiTu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VL1-9S-ssA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="f2s-bY-8aR">
+                                <rect key="frame" x="16" y="79" width="361" height="190"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSi-yo-2bj">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="8f8-uF-8ts"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入手机号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tab-sW-ANY">
+                                        <rect key="frame" x="0.0" y="40" width="361" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="liW-hj-S19"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ECK-mw-9O6">
+                                        <rect key="frame" x="0.0" y="95" width="361" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="4ll-DL-SVh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfJ-zT-qVg">
+                                        <rect key="frame" x="0.0" y="150" width="361" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="mCf-VF-Sjw"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="登录"/>
+                                        <connections>
+                                            <action selector="loginClick:" destination="ven-h5-uuz" eventType="touchUpInside" id="l5d-ng-LPh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iSr-1L-RtO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f2s-bY-8aR" firstAttribute="top" secondItem="iSr-1L-RtO" secondAttribute="top" constant="20" id="0kp-aJ-Nu7"/>
+                            <constraint firstItem="f2s-bY-8aR" firstAttribute="leading" secondItem="iSr-1L-RtO" secondAttribute="leading" constant="16" id="R1w-Db-s6E"/>
+                            <constraint firstItem="iSr-1L-RtO" firstAttribute="trailing" secondItem="f2s-bY-8aR" secondAttribute="trailing" constant="16" id="njW-D0-nec"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="hintView" destination="BSi-yo-2bj" id="i4P-6E-PgH"/>
+                        <outlet property="passwordView" destination="ECK-mw-9O6" id="AhU-PW-31w"/>
+                        <outlet property="usernameView" destination="tab-sW-ANY" id="kyR-kf-90V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ovg-hX-R6Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-848.09160305343505" y="0.70422535211267612"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="dhi-Xt-RrA">
             <objects>
@@ -74,6 +142,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

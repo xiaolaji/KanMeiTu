@@ -17,6 +17,7 @@
 		192028D429023B3C005FB6F4 /* KanMeiTuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192028D329023B3C005FB6F4 /* KanMeiTuUITests.swift */; };
 		192028D629023B3C005FB6F4 /* KanMeiTuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192028D529023B3C005FB6F4 /* KanMeiTuUITestsLaunchTests.swift */; };
 		19F24B9B29029CE000060FFB /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F24B9A29029CE000060FFB /* SplashController.swift */; };
+		19F24B9D29029FEA00060FFB /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F24B9C29029FEA00060FFB /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		192028D329023B3C005FB6F4 /* KanMeiTuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanMeiTuUITests.swift; sourceTree = "<group>"; };
 		192028D529023B3C005FB6F4 /* KanMeiTuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanMeiTuUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		19F24B9A29029CE000060FFB /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		19F24B9C29029FEA00060FFB /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				19F24B9A29029CE000060FFB /* SplashController.swift */,
+				19F24B9C29029FEA00060FFB /* LoginController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				192028B729023B3B005FB6F4 /* ViewController.swift in Sources */,
 				192028B329023B3B005FB6F4 /* AppDelegate.swift in Sources */,
 				192028B529023B3B005FB6F4 /* SceneDelegate.swift in Sources */,
+				19F24B9D29029FEA00060FFB /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
