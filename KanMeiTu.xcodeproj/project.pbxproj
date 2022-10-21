@@ -18,6 +18,9 @@
 		192028D629023B3C005FB6F4 /* KanMeiTuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192028D529023B3C005FB6F4 /* KanMeiTuUITestsLaunchTests.swift */; };
 		19F24B9B29029CE000060FFB /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F24B9A29029CE000060FFB /* SplashController.swift */; };
 		19F24B9D29029FEA00060FFB /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F24B9C29029FEA00060FFB /* LoginController.swift */; };
+		19F24BA02902BC8400060FFB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F24B9F2902BC8400060FFB /* StringExtension.swift */; };
+		19F24BA32902C09500060FFB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F24BA22902C09500060FFB /* Constant.swift */; };
+		19F24BA52902CA6E00060FFB /* PreferenceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F24BA42902CA6E00060FFB /* PreferenceUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		192028D529023B3C005FB6F4 /* KanMeiTuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanMeiTuUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		19F24B9A29029CE000060FFB /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 		19F24B9C29029FEA00060FFB /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		19F24B9F2902BC8400060FFB /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		19F24BA22902C09500060FFB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		19F24BA42902CA6E00060FFB /* PreferenceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,8 @@
 		192028B129023B3B005FB6F4 /* KanMeiTu */ = {
 			isa = PBXGroup;
 			children = (
+				19F24BA12902C07600060FFB /* Util */,
+				19F24B9E2902BC5D00060FFB /* Extension */,
 				192028E229025DC8005FB6F4 /* Controller */,
 				192028B229023B3B005FB6F4 /* AppDelegate.swift */,
 				192028B429023B3B005FB6F4 /* SceneDelegate.swift */,
@@ -139,6 +147,23 @@
 				19F24B9C29029FEA00060FFB /* LoginController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		19F24B9E2902BC5D00060FFB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				19F24B9F2902BC8400060FFB /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		19F24BA12902C07600060FFB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				19F24BA22902C09500060FFB /* Constant.swift */,
+				19F24BA42902CA6E00060FFB /* PreferenceUtil.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F24BA52902CA6E00060FFB /* PreferenceUtil.swift in Sources */,
+				19F24BA32902C09500060FFB /* Constant.swift in Sources */,
 				19F24B9B29029CE000060FFB /* SplashController.swift in Sources */,
 				192028B729023B3B005FB6F4 /* ViewController.swift in Sources */,
+				19F24BA02902BC8400060FFB /* StringExtension.swift in Sources */,
 				192028B329023B3B005FB6F4 /* AppDelegate.swift in Sources */,
 				192028B529023B3B005FB6F4 /* SceneDelegate.swift in Sources */,
 				19F24B9D29029FEA00060FFB /* LoginController.swift in Sources */,

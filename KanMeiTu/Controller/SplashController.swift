@@ -14,7 +14,7 @@ class SplashController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        DispatchQueue.main.asyncAfter(deadline: .now()){
+        DispatchQueue.main.asyncAfter(deadline: .now()+1){
             SceneDelegate.shared.next()
         }
     }
